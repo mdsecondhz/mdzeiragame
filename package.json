@@ -5,7 +5,8 @@
   "description": "Landing page, playable 2D platform prototype and production-ready backend scaffold for The Crazy Island.",
   "scripts": {
     "start": "node server/index.js",
-    "dev": "node server/index.js"
+    "dev": "node server/index.js",
+    "track": "node documentos/track-changes.js"
   },
   "dependencies": {
     "@paypal/checkout-server-sdk": "^1.0.3",
